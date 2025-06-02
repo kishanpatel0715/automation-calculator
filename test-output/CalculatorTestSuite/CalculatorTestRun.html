@@ -1,0 +1,255 @@
+<html>
+<head>
+<title>TestNG:  CalculatorTestRun</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>CalculatorTestRun</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>35/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jun 01 21:27:41 MDT 2025</td>
+</tr>
+<tr><td>Total time:</td><td>50 seconds (50842 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728401 Verify number button inputs display correct values", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728409 Verify full expression is shown in display pane", "Calculator"</td>
+<td></td>
+<td>4</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728403 Verify arithmetic operations with large integer inputs resulting in exponential output", "Calculator"</td>
+<td></td>
+<td>5</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728404 Verify arithmatic operations that result in negative values", "Calculator"</td>
+<td></td>
+<td>4</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728401 Verify number button inputs display correct values", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728403 Verify arithmetic operations with large integer inputs resulting in exponential output", "Calculator"</td>
+<td></td>
+<td>5</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728410 Verify "Infinity" is displayed when dividing by zero", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728401 Verify number button inputs display correct values", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728407 Verify correctness of decimal arithmetic operations", "Calculator"</td>
+<td></td>
+<td>4</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728404 Verify arithmatic operations that result in negative values", "Calculator"</td>
+<td></td>
+<td>4</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728412 Verify leading multiple zeros result in a single zero displayed", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728404 Verify arithmatic operations that result in negative values", "Calculator"</td>
+<td></td>
+<td>5</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728401 Verify number button inputs display correct values", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728414 Verify result pane remains unchanged when "=" is pressed without second operand", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728407 Verify correctness of decimal arithmetic operations", "Calculator"</td>
+<td></td>
+<td>4</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728401 Verify number button inputs display correct values", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728408 Verify correct result for chained arithmetic operations", "Calculator"</td>
+<td></td>
+<td>4</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728407 Verify correctness of decimal arithmetic operations", "Calculator"</td>
+<td></td>
+<td>4</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728407 Verify correctness of decimal arithmetic operations", "Calculator"</td>
+<td></td>
+<td>4</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728402 Verify arithmatic operations that result in positive values", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728401 Verify number button inputs display correct values", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728411 Verify last operator overrides previous when multiple operators are entered without a number", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728401 Verify number button inputs display correct values", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728401 Verify number button inputs display correct values", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728402 Verify arithmatic operations that result in positive values", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728401 Verify number button inputs display correct values", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728403 Verify arithmetic operations with large integer inputs resulting in exponential output", "Calculator"</td>
+<td></td>
+<td>5</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728406 Verify “Clear Entry” removes the last digit entered", "Calculator"</td>
+<td></td>
+<td>4</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728404 Verify arithmatic operations that result in negative values", "Calculator"</td>
+<td></td>
+<td>4</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728402 Verify arithmatic operations that result in positive values", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728401 Verify number button inputs display correct values", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728403 Verify arithmetic operations with large integer inputs resulting in exponential output", "Calculator"</td>
+<td></td>
+<td>6</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728402 Verify arithmatic operations that result in positive values", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728405 Verify “All Clear” resets the calculator display", "Calculator"</td>
+<td></td>
+<td>5</td>
+<td>runner.Test_Runner@66498326</td></tr>
+<tr>
+<td title='runner.Test_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.Test_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC728413 Verify pressing "=" multiple times, keeps result unchanged", "Calculator"</td>
+<td></td>
+<td>3</td>
+<td>runner.Test_Runner@66498326</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="35" passed="35" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-01T21:27:41 MDT" name="CalculatorTestSuite" finished-at="2025-06-01T21:28:32 MDT" duration-ms="50842">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-06-01T21:27:41 MDT" name="CalculatorTestRun" finished-at="2025-06-01T21:28:32 MDT" duration-ms="50842">
+      <class name="runner.Test_Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:41 MDT" name="setUpClass" finished-at="2025-06-01T21:27:41 MDT" duration-ms="398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18df8434]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setParam(java.lang.String,java.lang.String,boolean)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:41 MDT" name="setParam" finished-at="2025-06-01T21:27:41 MDT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParam -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:41 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:27:45 MDT" duration-ms="3283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728401 Verify number button inputs display correct values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:41 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:27:45 MDT" duration-ms="3683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728401 Verify number button inputs display correct values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:41 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:27:45 MDT" duration-ms="3868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728401 Verify number button inputs display correct values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:45 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:27:48 MDT" duration-ms="3021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728401 Verify number button inputs display correct values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:45 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:27:48 MDT" duration-ms="3304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728401 Verify number button inputs display correct values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:45 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:27:48 MDT" duration-ms="3167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728401 Verify number button inputs display correct values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:48 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:27:51 MDT" duration-ms="3361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728401 Verify number button inputs display correct values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:48 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:27:52 MDT" duration-ms="3499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728401 Verify number button inputs display correct values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:48 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:27:52 MDT" duration-ms="3283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728401 Verify number button inputs display correct values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:51 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:27:54 MDT" duration-ms="3163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728401 Verify number button inputs display correct values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:52 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:27:55 MDT" duration-ms="3457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728402 Verify arithmatic operations that result in positive values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:52 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:27:56 MDT" duration-ms="3895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728402 Verify arithmatic operations that result in positive values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:54 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:27:58 MDT" duration-ms="3712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728402 Verify arithmatic operations that result in positive values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:55 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:27:59 MDT" duration-ms="3928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728402 Verify arithmatic operations that result in positive values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:56 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:01 MDT" duration-ms="5663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728403 Verify arithmetic operations with large integer inputs resulting in exponential output"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:58 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:04 MDT" duration-ms="5792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728403 Verify arithmetic operations with large integer inputs resulting in exponential output"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:27:59 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:05 MDT" duration-ms="5745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728403 Verify arithmetic operations with large integer inputs resulting in exponential output"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:01 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:08 MDT" duration-ms="6472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728403 Verify arithmetic operations with large integer inputs resulting in exponential output"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:04 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:08 MDT" duration-ms="4382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728404 Verify arithmatic operations that result in negative values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:05 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:10 MDT" duration-ms="4901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728404 Verify arithmatic operations that result in negative values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:08 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:13 MDT" duration-ms="4943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728404 Verify arithmatic operations that result in negative values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:08 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:13 MDT" duration-ms="5010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728404 Verify arithmatic operations that result in negative values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:10 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:15 MDT" duration-ms="5275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728405 Verify “All Clear” resets the calculator display"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:13 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:17 MDT" duration-ms="4034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728406 Verify “Clear Entry” removes the last digit entered"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:13 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:17 MDT" duration-ms="4279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728407 Verify correctness of decimal arithmetic operations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:15 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:20 MDT" duration-ms="4868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728407 Verify correctness of decimal arithmetic operations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:17 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:21 MDT" duration-ms="4069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728407 Verify correctness of decimal arithmetic operations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:17 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:22 MDT" duration-ms="4887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728407 Verify correctness of decimal arithmetic operations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:20 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:25 MDT" duration-ms="4700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728408 Verify correct result for chained arithmetic operations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:21 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:26 MDT" duration-ms="4941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728409 Verify full expression is shown in display pane"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:22 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:26 MDT" duration-ms="3474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728410 Verify "Infinity" is displayed when dividing by zero"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:25 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:29 MDT" duration-ms="3996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728411 Verify last operator overrides previous when multiple operators are entered without a number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:26 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:30 MDT" duration-ms="3837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728412 Verify leading multiple zeros result in a single zero displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:26 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:30 MDT" duration-ms="3807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728413 Verify pressing "=" multiple times, keeps result unchanged"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:29 MDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-01T21:28:32 MDT" duration-ms="3158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC728414 Verify result pane remains unchanged when "=" is pressed without second operand"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.Test_Runner@66498326]" started-at="2025-06-01T21:28:32 MDT" name="tearDownClass" finished-at="2025-06-01T21:28:32 MDT" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.Test_Runner -->
+    </test> <!-- CalculatorTestRun -->
+  </suite> <!-- CalculatorTestSuite -->
+</testng-results>
