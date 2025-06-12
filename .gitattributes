@@ -1,1 +1,2 @@
 *.html linguist-detectable=false
+*.feature linguist-detectable=false
